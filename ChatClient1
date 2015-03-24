@@ -148,5 +148,5 @@ class ChatClient extends Frame implements Runnable {
 				ex.printStackTrace();
 			}
 		}
-	}
+	 }
 }
