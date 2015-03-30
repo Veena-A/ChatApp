@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 
-class ChatClient extends Frame implements Runnable {
+class ChatClient1 extends Frame implements Runnable {
 	/**
 	 * 
 	 */
@@ -30,7 +30,7 @@ class ChatClient extends Frame implements Runnable {
 	DataInputStream din;
 	JComboBox<String> users = new JComboBox<>();
 
-	ChatClient(String LoginName) throws Exception {
+	ChatClient1(String LoginName) throws Exception {
 		super(LoginName);
 		this.LoginName = LoginName;
 		newMessageTxt = new TextField(50);
